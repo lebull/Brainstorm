@@ -1,0 +1,48 @@
+This document contains some project brainstorming ideas.
+
+
+Some sort of intrusion game
+
+
+
+
+
+OPAT - Once Upon A Time
+    Goal: Create a websocket/based javascript game.
+                        
+        Goal 1
+            Players have 3 types of cards with phrases.  These cards can fit
+            together to make a sentence.
+            
+            Players can play one of each type of card per turn.  One player must abstain.
+            Card czar votes on winning cards one 'set' at a time without seeing the others.
+            
+            No clue when the game is over.
+
+            Actions:
+                Server provides cards for playing.
+                User plays card.
+                Server provides played cards to czar for picking.
+                
+                Player times out
+                Czar times out
+                
+            Events (server side)
+                Player connects.
+                Game starts.
+                Player disconnects
+                
+            Events (client side)
+                
+            
+            
+            Notes:
+                Obviously, there would be no attempt at a story, so don't try.
+                Maybe theme the "story" around a certain player?
+        Goal 2
+        
+            Players can vote to overrule the czar?
+        
+            Winning players can submit cards.
+            Older, non-default cards must retired.
+    
