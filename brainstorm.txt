@@ -4,7 +4,11 @@ This document contains some project brainstorming ideas.
 Some sort of intrusion game
 
 
-
+Tasker
+	Make a todo list
+	Make meeting minutes
+	Convert minutes to todo tasks
+	Make task templates
 
 
 OPAT - Once Upon A Time
